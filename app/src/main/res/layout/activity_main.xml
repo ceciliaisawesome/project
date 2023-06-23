@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/net"
+    android:background="@drawable/streetball"
     android:orientation="horizontal"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -33,6 +33,28 @@
         android:text="SignUp"
         android:textColor="#43A047"
         android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Txt_Or"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480sp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="OR" />
+
+    <TextView
+        android:id="@+id/Txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="510sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Already have an account? LogIn" />
 
 
 </RelativeLayout>
