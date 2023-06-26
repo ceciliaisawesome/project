@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AGame"
         tools:targetApi="31">
         <activity
+            android:name=".weightpage"
+            android:exported="false" />
+        <activity
             android:name=".Loginpage"
             android:exported="false" />
         <activity
